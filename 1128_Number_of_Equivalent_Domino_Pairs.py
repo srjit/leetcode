@@ -15,9 +15,6 @@ class Solution:
                 _dominos[(d1,d2)] = 0
             _dominos[(d1,d2)]+=1
 
-        # import ipdb
-        # ipdb.set_trace()
-
         return sum([comb(v,2) for k,v in _dominos.items() if v>1])
 
 
