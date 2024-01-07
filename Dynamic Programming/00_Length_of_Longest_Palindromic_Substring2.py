@@ -18,10 +18,14 @@ class Solution:
             
 
         maxlen = dp[0][_len - 1]
+
+        import ipdb
+        ipdb.set_trace()
+
         return maxlen
 
 
-print(Solution().longestPalindrome("babcbab"))
+print(Solution().longestPalindrome("cbbd"))
 
 
 
