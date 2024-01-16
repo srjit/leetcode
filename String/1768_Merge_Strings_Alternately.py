@@ -1,4 +1,6 @@
+
 class Solution:
+    
     def mergeAlternately(self, word1: str, word2: str) -> str:
         # taking the lengths of both the words
         n1 = len(word1)
