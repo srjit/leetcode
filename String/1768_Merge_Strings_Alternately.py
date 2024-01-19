@@ -2,7 +2,7 @@
 class Solution:
     
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        
+        ls
         # taking the lengths of both the words
         n1 = len(word1)
         n2 = len(word2)
