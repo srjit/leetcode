@@ -7,7 +7,7 @@ class Solution:
             if r == N:
                 return 0
             if c < 0 or c >= N:
-                return float("inf")
+                return float("inf")⁄
 
             if (r,c) in dp:
                 return dp[(r,c)]

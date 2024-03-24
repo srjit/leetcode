@@ -24,7 +24,7 @@ class Solution:
 
             res += current            
             prev = current
-        return res
+        return res-
 
 s = Solution()
 print(s.romanToInt("MCMXCV"))
